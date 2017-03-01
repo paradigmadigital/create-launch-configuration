@@ -8,15 +8,15 @@ The role uses the EC2 module, the boto package is required.
 
 # Role Variables
 
-* `lc_name`                : Name of the launch configuration
-* `lc_ami`                 : AMI ID for the launch configuration
-* `lc_security_groups`     : Security group IDs for the launch configuration
-* `lc_user_data`           : User data for the launch configuration
-* `instance_monitoring`    : [yes|no] to monitor
-* `region`                 : Region to launch the ec2 instance to create the new AMI
-* `keypair`                : SSH keypair to access
-* `instance_type`          : AWS instance type
-* `instance_profile_name ` : The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instances
+* `lc.name`                   : Name of the launch configuration
+* `lc.ami`                    : AMI ID for the launch configuration
+* `lc.security_groups`        : Security group IDs for the launch configuration
+* `lc.user_data`              : User data for the launch configuration
+* `lc.instance_monitoring`    : [yes|no] to monitor
+* `lc.region`                 : Region to launch the ec2 instance to create the new AMI
+* `lc.keypair`                : SSH keypair to access
+* `lc.instance_type`          : AWS instance type
+* `lc.instance_profile_name ` : The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instances
 
 # Example playbook
 

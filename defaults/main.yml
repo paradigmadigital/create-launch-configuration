@@ -1,11 +1,12 @@
 ---
 # defaults file for create-launch-configuration
-region                :
-lc_name               :
-lc_ami                :
-keypair               :
-instance_type         :
-lc_security_groups    :
-instance_monitoring   :
-lc_user_data          :
-instance_profile_name :
+lc:
+  name                  :
+  ami                   :
+  region                :
+  keypair               :
+  instance_type         :
+  security_groups       :
+  instance_monitoring   :
+  user_data             :
+  instance_profile_name :
