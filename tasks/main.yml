@@ -2,12 +2,12 @@
 # tasks file for create-launch-configuration
 - name: Create Launch Configuration
   ec2_lc:
-    region: "{{ region }}"
-    name: "{{ lc_name }}"
-    image_id: "{{ lc_ami }}"
-    key_name: "{{ keypair }}"
-    instance_type: "{{ instance_type }}"
-    security_groups: "{{ lc_security_groups }}"
-    instance_monitoring: "{{ instance_monitoring }}"
-    instance_profile_name: "{{ instance_profile_name }}"
-    user_data: "{{ lc_user_data }}"
+    region: "{{ lc.region }}"
+    name: "{{ lc.name }}"
+    image_id: "{{ lc.ami }}"
+    key_name: "{{ lc.keypair }}"
+    instance_type: "{{ lc.instance_type }}"
+    security_groups: "{{ lc.security_groups }}"
+    instance_monitoring: "{{ lc.instance_monitoring }}"
+    instance_profile_name: "{{ lc.instance_profile_name }}"
+    user_data: "{{ lc.user_data }}"
