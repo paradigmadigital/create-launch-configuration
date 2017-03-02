@@ -10,3 +10,4 @@ lc:
   instance_monitoring   :
   user_data             :
   instance_profile_name :
+  assign_public_ip      :
