@@ -16,7 +16,8 @@ The role uses the EC2 module, the boto package is required.
 * `lc.region`                 : Region to launch the ec2 instance to create the new AMI
 * `lc.keypair`                : SSH keypair to access
 * `lc.instance_type`          : AWS instance type
-* `lc.instance_profile_name ` : The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instances
+* `lc.instance_profile_name`  : The name or the Amazon Resource Name (ARN) of the instance profile associated with the IAM role for the instances
+* `lc.assign_public_ip`       : Used for Auto Scaling groups that launch instances into an Amazon Virtual Private Cloud. Specifies whether to assign a public IP address to each instance launched in a Amazon VPC.  [Default: (null)]
 
 # Example playbook
 

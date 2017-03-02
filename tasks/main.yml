@@ -11,3 +11,4 @@
     instance_monitoring   : "{{ lc.instance_monitoring }}"
     instance_profile_name : "{{ lc.instance_profile_name }}"
     user_data             : "{{ lc.user_data }}"
+    assign_public_ip      : "{{ lc.assign_public_ip }}"
