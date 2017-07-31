@@ -4,7 +4,7 @@
   ec2_lc:
     region                : "{{ lc.region }}"
     name                  : "{{ lc.name }}"
-    image_id              : "{{ lc.ami }}"
+    image_id              : "{{ lc.ami_id }}"
     key_name              : "{{ lc.keypair }}"
     instance_type         : "{{ lc.instance_type }}"
     security_groups       : "{{ lc.security_groups }}"

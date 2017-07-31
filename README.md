@@ -9,7 +9,7 @@ The role uses the EC2 module, the boto package is required.
 # Role Variables
 
 * `lc.name`                   : Name of the launch configuration
-* `lc.ami`                    : AMI ID for the launch configuration
+* `lc.ami_id`                 : AMI ID for the launch configuration
 * `lc.security_groups`        : Security group IDs for the launch configuration
 * `lc.user_data`              : User data for the launch configuration
 * `lc.instance_monitoring`    : [yes|no] to monitor
